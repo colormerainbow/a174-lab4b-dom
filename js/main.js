@@ -7,14 +7,14 @@ let index = 0;
 nxt.onclick = function (e) {
   e.preventDefault();
   index = index + 1;
-  slide.src = baseURL + album[index];
-  console.log(slide.src);
 
   //write a conditional so that the images wrap back to the beginning image.
-  const lastImg = album.length - 1;
-  if (index >= lastImg) {
-    index = -1;
+
+  if (index >= album.length) {
+    index = 0;
   }
+  slide.src = baseURL + album[index];
+  console.log(slide.src);
 }
 
 //Add a previous button event listener
