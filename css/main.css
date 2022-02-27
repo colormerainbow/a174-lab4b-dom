@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;700&family=Mirza&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ body {
 }
 
 .labtitle {
+  font-family: 'Arima Madurai', cursive;
   border: 2px solid #495057;
   background-color: #495057;
   text-align: center;
@@ -16,6 +19,7 @@ body {
 }
 
 .slideshow {
+  font-family: 'Mirza', cursive;
   background-color: lightgray;
   border: 3px solid lightgray;
   color: #343a40;
@@ -27,6 +31,7 @@ h1 {
 }
 
 .part {
+  font-family: 'Arima Madurai', cursive;
   background-color: bisque;
   border-radius: 50%;
   border: 2px solid bisque;
