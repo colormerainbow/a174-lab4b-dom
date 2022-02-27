@@ -1,3 +1,54 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #343a40;
+}
+
+.labtitle {
+  border: 2px solid #495057;
+  background-color: #495057;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  color: lightgray;
+}
+
+.slideshow {
+  background-color: lightgray;
+  border: 3px solid lightgray;
+  color: #343a40;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.part {
+  background-color:bisque;
+  border-radius: 50%;
+  border: 2px solid bisque;
+  padding: .6rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 400px;
+  object-fit: contain;
+}
+
+.slides {
+  width: 400px;
+  margin: auto;
+}
+
+.slides figure {
+  margin: 0;
+}
+
+.slides .nxt {
+  float: right;
 }
